@@ -17,3 +17,22 @@ stm32代码使用的是W5100官方的例程改造的，有自己写入的部分�
 有更多需要的话，有可能也会写python代码来用于树莓派和plc通讯，或者是编写用于esp8266/32的arduino代码。  
 
 感觉代码对你有用的话，可以点个赞。  
+
+
+Author: Song Nan  
+
+Position: Embedded Engineer  
+
+Unauthorized reproduction prohibited.  
+
+This project is for personal study, research, and data backup only. Commercial and illegal use is strictly prohibited.  
+ 
+This project implements Modbus TCP communication between a Siemens 1200 PLC and an STM32F103C86. Currently, communication is working without issues. Further functional code will be written later, so please stay tuned.  
+
+The STM32 code is a modified version of the official W5100 example, with some custom components. Other library files use the official example.  
+
+The STM32 program uses the standard library. If needed later, it may be ported to the HAL library. The PLC program uses TIA Portal V16. Please use version 16 or higher to open it. Thank you.  
+
+If further needs arise, Python code may be written for communication between Raspberry Pi and PLC, or Arduino code may be written for ESP8266/32.  
+
+If you find the code helpful, please give it a like.  
